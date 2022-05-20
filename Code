@@ -1,0 +1,23 @@
+ADVANCE MODALS | BDFD ( All Credits To CritiStudioYT#9565 )
+
+(Prefix)Addbot
+
+$nomention
+$addButton[no;ID;Bot Id;success;no;]
+$title[add Bot]
+$description[Your Terms And Services Etc.]
+$footer[executed by $username]
+$c[Created by CritiStudioYT#956
+
+Trigger
+$onInteraction[ID]
+$nomention
+$newModal[apply;addbot]
+$addTextInput[op;paragraph;label;1;18;true; ;Bot ID]
+
+$onInteraction[apply]
+
+$nomention
+$title[Bot Reuqwest]
+$description[
+The Id is $message]
